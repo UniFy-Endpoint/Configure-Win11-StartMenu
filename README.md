@@ -1,3 +1,5 @@
+[![Download Latest Release](https://img.shields.io/github/v/release/UniFy-Endpoint/Configure-Win11-StartMenu?label=Download%20Latest&style=for-the-badge&logo=github)](https://github.com/UniFy-Endpoint/Configure-Win11-StartMenu/releases/latest)
+
 # Configure Windows 11 Start Menu & Taskbar Layout
 
 A PowerShell script to configure Windows 11 Start Menu pinned apps and Taskbar layout for enterprise deployments. Designed for **Windows 11 Pro** devices managed via Microsoft Intune where native policies (Settings Catalog/CSP) are limited to Enterprise/Education editions.
@@ -326,4 +328,3 @@ The `-Reset` parameter performs these actions:
 | v1.4 | 2026-01-06 | Added reset mode, improved logging |
 | v1.3 | 2026-01-06 | Inline JSON approach per Microsoft docs, UTF-8 no BOM |
 | v1.2 | 2026-01-06 | Initial release with file-based JSON |
-
